@@ -36,7 +36,7 @@ export default function NavBar() {
             <a href="#" className="leading-normal no-underline text-black font-bold text-lg hover:text-primary">
               Contact
             </a>
-            <button className="bg-primary rounded shadow h-16 px-12 outline-none text-white hover:bg-white hover:text-primary cursor-pointer text-base transition-bg hover:border hover:border-primary">Get Exploration</button>
+            <button className="bg-primary rounded shadow h-12 px-8 outline-none text-white hover:bg-white hover:text-primary cursor-pointer text-base transition-bg hover:border hover:border-primary">Get Exploration</button>
           </ul>
           {dropdown ? (
             <div onClick={showDropdown} className="lg:hidden text-[22px] cursor-pointer text-black">
