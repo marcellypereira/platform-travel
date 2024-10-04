@@ -9,7 +9,7 @@ export default function NavBar() {
     setDropdown(!dropdown);
   }
   return (
-    <nav className="w-full h-24 flex flex-col justify-center items-center stycky top-0 z-50 bg-white">
+    <nav className="w-full h-24 flex flex-col justify-center items-center sticky top-0 z-50 bg-white"> 
       <div className="max-w-[1400px] mx-auto lg:px-3 w-full">
         <div className="lg:w-full w-11/12 mx-auto h-full flex justify-between items-center">
           <div className="flex flex-col gap-y-4">
