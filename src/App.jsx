@@ -1,6 +1,7 @@
-import Featured from "./components/featured"
+import Featured from "./components/Featured"
 import Hero from "./components/Hero"
 import NavBar from "./components/Navbar"
+import Offers from "./components/Offers"
 import Packages from "./components/Packages"
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
       <Hero />
       <Featured />
       <Packages />
+      <Offers />
     </>
   )
 }
