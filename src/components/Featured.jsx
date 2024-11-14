@@ -1,9 +1,6 @@
 import { useState } from "react"
-import { FaPlaneDeparture } from "react-icons/fa";
-import { FaCar, FaShip, FaHotel } from "react-icons/fa";
 
 export default function Featured() {
-  const [active, setActive] = useState("Hotel");
 
   // eslint-disable-next-line react/prop-types
   const Card = ({packages, image, country, amount, rows}) => {
@@ -48,95 +45,6 @@ export default function Featured() {
         </p>
       </div>
       <div className="px-3 lg:mt-0 mt-12">
-        <div className="bg-white shadow-xl py-10 relative -top-16 z-10">
-          <div className="flex lg:gap-x-4 gap-x-2 absolute -top-14">
-            <button onClick={() =>setActive('Hotel')}
-              className={`rounded-sm flex gap-x-2 items-center justify-center focus:outline-none border-none h-14 lg:w-40 px-4 text-base cursor-pointer 
-              ${
-                active === "Hotel" ? "bg-primary text-white" : "bg-white"
-              }`}
-            >
-              <FaHotel size={20} className="lg:block hidden" />
-              Hotel
-            </button>
-            <button onClick={() =>setActive('Flight')} 
-            className={`rounded-sm flex gap-x-2 items-center justify-center focus:outline-none border-none h-14 lg:w-40 px-4 text-base cursor-pointer 
-              ${
-                active === "Flight" ? "bg-primary text-white" : "bg-white"
-              }`}
-            >
-              <FaPlaneDeparture size={20} className="lg:block hidden" />
-              Flight
-            </button>
-            <button onClick={() =>setActive('Car')}
-              className={`rounded-sm flex gap-x-2 items-center justify-center focus:outline-none border-none h-14 lg:w-40 px-4 text-base cursor-pointer 
-                ${
-                  active === "Car" ? "bg-primary text-white" : "bg-white"
-                }`}
-            >
-              <FaCar size={20} className="lg:block hidden" />
-              Car
-            </button>
-            <button onClick={() =>setActive('Ship')}
-            className={`rounded-sm flex gap-x-2 items-center justify-center focus:outline-none border-none h-14 lg:w-40 px-4 text-base cursor-pointer 
-              ${
-                active === "Ship" ? "bg-primary text-white" : "bg-white"
-              }`}
-            >
-              <FaShip size={20} className="lg:block hidden" />
-              Ship
-            </button>
-          </div>
-          
-          <div className="flex flex-wrap items-end justify-between px-8 gap-4">
-            <span className="flex flex-col gap-4">
-              <p className="font-semibold text-lg">Your Destinations</p>
-              <input 
-                type='text' 
-                placeholder="Thailand"
-                className="bg-light text-gray shadow border-none outline-none h-14 w-40 px-4 text-left text-base"
-              />
-            </span>
-            <span className="flex flex-col gap-4">
-              <p className="font-semibold text-lg">Check In</p>
-              <input 
-                type='text' 
-                placeholder="03/08/2022"
-                className="bg-light text-gray shadow border-none outline-none h-14 w-40 px-4 text-left text-base"
-              />
-            </span>
-            <span className="flex flex-col gap-4">
-              <p className="font-semibold text-lg">Ckeck Out</p>
-              <input
-                type='text' 
-                placeholder="04/08/2022"
-                className="bg-light text-gray shadow border-none outline-none h-14 w-40 px-4 text-left text-base"
-              />
-            </span>
-            <span className="flex flex-col gap-4">
-              <p className="font-semibold text-lg">Child</p>
-              <input 
-                type='text' 
-                placeholder="3"
-                className="bg-light text-gray shadow border-none outline-none h-14 w-40 px-4 text-left text-base"
-              />
-            </span>
-            <span className="flex flex-col gap-4">
-              <p className="font-semibold text-lg">Adult</p>
-              <input 
-                type='text' 
-                placeholder="2"
-                className="bg-light text-gray shadow border-none outline-none h-14 w-40 px-4 text-left text-base"
-              />
-            </span>
-            <span className="flex flex-col gap-4">
-              <button className="bg-primary rounded shadow h-14 px-10 outline-none text-white hover:bg-white hover:text-primary cursor-pointer text-base transition-bg hover:border hover:border-primary">
-                Book Now
-              </button>
-            </span>
-          </div>
-        </div>
-        
         <div> 
           <span className="flex flex-col items-center">
             <p className="text-primary font-bold capitalize tracking-[0.15em]">
