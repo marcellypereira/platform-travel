@@ -4,6 +4,7 @@ import NavBar from "./components/Navbar"
 import Offers from "./components/Offers"
 import Packages from "./components/Packages"
 import Footer from "./components/Footer"
+import FAQ from "./components/FAQ"
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
       <Featured />
       <Packages />
       <Offers />
+      <FAQ />
       <Footer />
     </>
   )
