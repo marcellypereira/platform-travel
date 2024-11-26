@@ -38,7 +38,7 @@ export default function Featured() {
     )
   };
   return (
-    <div className="max-w-[1400px] mx-auto relative">
+    <div className="max-w-[1400px] mx-auto relative mt-20">
       <div className="w-full h-full">
         <p className="xl:text-[25rem] lg:text-[20rem] absolute top-0 left-0 w-full text-center z-[-1] text-gray font-semibold opacity-10">
           Travel

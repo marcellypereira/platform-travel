@@ -3,6 +3,7 @@ import Hero from "./components/Hero"
 import NavBar from "./components/Navbar"
 import Offers from "./components/Offers"
 import Packages from "./components/Packages"
+import Footer from "./components/Footer"
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
       <Featured />
       <Packages />
       <Offers />
+      <Footer />
     </>
   )
 }

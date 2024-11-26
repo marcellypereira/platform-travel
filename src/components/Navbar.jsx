@@ -10,7 +10,7 @@ export default function NavBar() {
             </div>
           </div>
           <div className="flex flex-wrap items-center justify-center gap-2 cursor-pointer">
-            <p className="font-bold">Ajuda</p>
+            <p className="font-bold">Help</p>
             <img src="image18.png" className="" alt="" />
           </div>
         </div>

@@ -1,6 +1,6 @@
 export default function Offers() {
   return (
-    <div className="max-w-[1400px] mx-auto relative top-10 px-4">
+    <div className="max-w-[1400px] mx-auto relative mt-60 mb-60">
       <div className="w-full h-full">
         <p className="xl:text-[25rem] lg:text-[20rem] absolute w-full text-center z-[-1] text-gray font-semibold opacity-10 top-[-10rem]">
           Travel

@@ -6,7 +6,7 @@ export default function Packages() {
     return (
       <div>
         <div className="overflow-hidden my-0 mx-auto rounded-2xl">
-          <img src={image} alt="" className="rounded-2xl w-[300px] h-[300px] hoverImg" />
+          <img src={image} alt="" className="rounded-2xl w-[400px] h-[400px] hoverImg object-cover" />
         </div>
         <h5 className="text-2xl py-4 font-semibold">{text}</h5>
         <span className="flex items-center justify-between">
@@ -23,8 +23,8 @@ export default function Packages() {
     )
   }
   return (
-    <div className="bg-lightGray my-16 py-16 relative">
-      <div className="max-w-[1400px] mx-auto px-3">
+    <div className="bg-lightGray mt-20 py-16 relative flex justify-center items-center">
+      <div className="max-w-[1400px] px-3">
         <span className="flex flex-col items-center">
           <p className="text-primary font-bold capitalize tracking-[0.15em]">Popular Packages</p>
           <h2 className="text-4xl text-center font-bold capitalize my-4">Checkout our packages</h2>
