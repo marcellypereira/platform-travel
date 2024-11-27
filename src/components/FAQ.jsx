@@ -8,9 +8,9 @@ const FAQ = () => {
 
   const toggleAnswer = (index) => {
     if (activeIndex === index) {
-      setActiveIndex(null); // Fecha a pergunta se estiver aberta
+      setActiveIndex(null);
     } else {
-      setActiveIndex(index); // Abre a pergunta
+      setActiveIndex(index);
     }
   };
 
@@ -51,9 +51,9 @@ const FAQ = () => {
                 <span>{item.question}</span>
                 <span className="ml-2">
                   {activeIndex === index ? (
-                    <FiChevronUp className="text-[#6347F9]" /> // Seta para cima
+                    <FiChevronUp className="text-[#6347F9]" /> 
                   ) : (
-                    <FiChevronDown className="text-[#6347F9]" /> // Seta para baixo
+                    <FiChevronDown className="text-[#6347F9]" />
                   )}
                 </span>
               </button>
