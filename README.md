@@ -14,7 +14,7 @@ Todo o design desta aplicação/site foi concebido e desenvolvido por mim, focan
 
 1. Clone o repositório para sua máquina local.
 2. Navegue até a pasta do projeto utilizando o terminal.
-3. Execute o comando npm install para instalar as dependências necessárias.
+3. Execute o comando `npm install` para instalar as dependências necessárias.
 4. Por fim, inicie o servidor de desenvolvimento executando o comando `yarn dev`.
 
 ![travel](https://github.com/user-attachments/assets/356b4f2a-70eb-44bb-b6ca-e3c8543ed65d)
